@@ -1,0 +1,133 @@
+.marge{
+    margin-top: 7%;
+   
+
+}
+
+
+.bg{
+    overflow: hidden;
+    position: relative;
+}
+
+.img{
+opacity: 0.8;
+position: fixed;
+left: 0;
+top:0;
+width: 100%;
+/* background: url(/assets/img/category/veggie_cat.jpg) no-repeat center center; */
+
+}
+
+.content {
+    position: relative;
+}
+
+.search {
+
+     /* background-image: url(/assets/img/category/veggie_cat.jpg);  */
+     background-color: rgb(59, 146, 56);
+     background-repeat: no-repeat; 
+     background-size: 100%; 
+     padding: 2%; 
+     margin-bottom: 2%; 
+}
+
+ .zoom {
+    width: 250px;
+    transition: transform .1s;
+
+    } 
+
+.zoom:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+
+.nav1 {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(4, 56, 4);
+    color: white;
+    margin-block: 5px;
+
+}
+
+li {
+    margin: 20px;
+}
+
+.com {
+
+    text-align: center;
+}
+
+
+
+
+/* @media screen and (max-width: 768px) {
+    #DIVaside-accueil,#DIVaside-categories,#DIVaside-plats,#DIVaside-contact, #DIVaside-connexion, #DIVaside-commande {
+        display: none
+    }
+
+    #DIVsection-accueil,#DIVsection-categories,#DIVsection-plats,#DIVsection-contact, #DIVaside-connexion, #DIVaside-commande {
+        width: 100%
+
+    }
+
+    #title-accueil,#title-categories,#title-plats,#title-contact, #title-connexion, #title-commande {
+        display: none
+    }
+    .nav {
+
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+    }
+
+    li{
+        margin: 3px;
+    }
+    
+   label{
+        font-size: 14px;
+    }
+    
+    a,p,li,span{
+        font-size: 12px;
+    }
+}  */
+
+
+
+
+
+/* 
+@media (max-width : 480px){
+    .div_accueil{
+        flex-direction: column;
+        height: auto;
+    }
+    .div_header{
+        height:auto;
+    }
+}
+
+@media (min-width: 768px){
+    .div_accueil{
+        flex-direction: column;
+        height: auto;
+    }
+    .div_header{
+        height:auto;
+}
+
+
+
+
+} */
